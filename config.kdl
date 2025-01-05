@@ -31,6 +31,7 @@ keybinds clear-defaults=true {
         bind "r" { SwitchToMode "Resize"; }
         bind "[" { SwitchToMode "Scroll"; }
         bind "d" { Detach; }
+        bind "Shift k" { CloseFocus; SwitchToMode "Locked"; }
     }
     pane {
         bind "h" "Left" { MoveFocusOrTab "Left"; }
