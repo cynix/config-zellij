@@ -1,7 +1,23 @@
 default_layout "compact"
 default_mode "locked"
 session_serialization false
-theme "kanagawa"
+
+themes {
+  kanagawa-selection {
+    fg "#1F1F28"
+    bg "#2d4f67"
+    red "#C34043"
+    green "#76946A"
+    yellow "#FF9E3B"
+    blue "#7E9CD8"
+    magenta "#957FB8"
+    orange "#FFA066"
+    cyan "#7FB4CA"
+    black "#16161D"
+    white "#DCD7BA"
+  }
+}
+theme "kanagawa-selection"
 
 keybinds clear-defaults=true {
     locked {
