@@ -5,7 +5,7 @@ session_serialization false
 themes {
   kanagawa-selection {
     fg "#1F1F28"
-    bg "#2d4f67"
+    bg "#2D4F67"
     red "#C34043"
     green "#76946A"
     yellow "#FF9E3B"
@@ -96,24 +96,8 @@ keybinds clear-defaults=true {
     bind "o" { SearchToggleOption "WholeWord"; }
   }
   shared_except "locked" {
-    bind "Esc" { SwitchToMode "Locked"; }
+    bind "Esc" "q" { SwitchToMode "Locked"; }
   }
-}
-
-plugins {
-  tab-bar location="zellij:tab-bar"
-  status-bar location="zellij:status-bar"
-  strider location="zellij:strider"
-  compact-bar location="zellij:compact-bar"
-  session-manager location="zellij:session-manager"
-  welcome-screen location="zellij:session-manager" {
-    welcome_screen true
-  }
-  filepicker location="zellij:strider" {
-    cwd "/"
-  }
-  configuration location="zellij:configuration"
-  plugin-manager location="zellij:plugin-manager"
 }
 
 ui {
