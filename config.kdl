@@ -1,6 +1,8 @@
 default_layout "compact"
 default_mode "locked"
 session_serialization false
+show_release_notes false
+show_startup_tips false
 
 themes {
   kanagawa-selection {
